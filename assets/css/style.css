@@ -8,3 +8,16 @@
   --color-text-light: #ffffff;
   --color-text-gold: #c6b07f;
 }
+
+header {
+  background-color: var(--color-bg-header);
+}
+
+header a {
+  color: var(--color-text-light);
+  text-decoration: none;
+}
+
+#hero-card {
+  background-color: var(--color-bg-overlay);
+}

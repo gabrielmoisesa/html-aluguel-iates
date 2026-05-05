@@ -20,4 +20,5 @@ header a {
 
 #hero-card {
   background-color: var(--color-bg-overlay);
+  color: var(--color-text-light);
 }

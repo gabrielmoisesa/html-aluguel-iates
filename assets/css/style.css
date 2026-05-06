@@ -69,7 +69,35 @@ header a {
   border-right: none;
 }
 
+#hero {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  display: block;
+}
+
 #hero-card {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35%;
   background-color: var(--color-bg-overlay);
   color: var(--color-text-light);
+  padding: 2rem;
+}
+
+.hero-contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.hero-contact p a {
+  color: var(--color-text-gold);
+  text-decoration: none;
 }

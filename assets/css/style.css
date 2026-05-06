@@ -84,7 +84,7 @@ header a {
   top: 50%;
   transform: translateY(-50%);
   width: 35%;
-  background-color: var(--color-bg-overlay);
+  background-color: color-mix(in srgb, var(--color-bg-header) 80%, transparent);
   color: var(--color-text-light);
   padding: 2rem;
 }
@@ -100,6 +100,10 @@ header a {
 .hero-contact p a {
   color: var(--color-text-gold);
   text-decoration: none;
+}
+
+.hero-contact p a:hover {
+  text-decoration: underline;
 }
 
 .content-container {

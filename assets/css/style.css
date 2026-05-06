@@ -18,6 +18,22 @@ header a {
   text-decoration: none;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-name {
+  font-size: 1.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-highlight {
+  color: var(--color-primary);
+}
+
 #hero-card {
   background-color: var(--color-bg-overlay);
   color: var(--color-text-light);

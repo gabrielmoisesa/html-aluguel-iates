@@ -101,3 +101,29 @@ header a {
   color: var(--color-text-gold);
   text-decoration: none;
 }
+
+.content-container {
+  display: flex;
+  gap: 3rem;
+  padding: 1.75rem 2.75rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  color: var(--color-text-light);
+}
+
+.section-header h2 {
+  margin: 0;
+}
+
+#destination-header {
+  background-color: var(--color-primary);
+}
+
+#fleet-header {
+  background-color: var(--color-text-gold);
+}

@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 17px 1.75rem;
+  padding: 24px 1.75rem;
 }
 
 header a {
@@ -47,8 +47,26 @@ header a {
 .nav-menu ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
   margin: 0;
+}
+
+.nav-menu ul li {
+  border-right: 1px solid var(--color-text-light);
+  padding-inline: 1rem;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.nav-menu ul li a {
+  transition: color 0.2s ease;
+}
+
+.nav-menu ul li a:hover {
+  color: var(--color-primary);
+}
+
+.nav-menu ul li:last-child {
+  border-right: none;
 }
 
 #hero-card {

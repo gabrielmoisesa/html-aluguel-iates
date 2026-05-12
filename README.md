@@ -4,7 +4,7 @@ Página web institucional para uma empresa fictícia de aluguel de iates de luxo
 
 <details>
   <summary>Índice</summary>
-  
+
 1. [Sobre o Projeto](#sobre-o-projeto)
    - [Principais Features](#principais-features)
    - [Tecnologias](#tecnologias)
@@ -16,9 +16,7 @@ Página web institucional para uma empresa fictícia de aluguel de iates de luxo
 
 ## Sobre o Projeto
 
-<img src="./assets/img/project-desktop-preview.png" alt="project-desktop-preview" width="700">
-
-<br>
+<img src="./assets/img/project-desktop-preview.png" alt="project-desktop-preview" height="400">
 
 O projeto foi desenvolvido seguindo um protótipo fornecido pelo professor, reproduzindo fielmente o layout proposto com HTML semântico e CSS puro, sem frameworks ou dependências externas.
 

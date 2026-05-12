@@ -170,3 +170,7 @@ header a {
 .fleet-grid img {
   width: 100%;
 }
+
+footer {
+  margin-left: 2.75rem;
+}

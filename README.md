@@ -11,6 +11,7 @@ Página web institucional para uma empresa fictícia de aluguel de iates de luxo
    - [Protótipo vs Layout Final](#protótipo-vs-layout-final)
 2. [Como Executar](#como-executar)
 3. [Licença](#licença)
+4. [Autor](#autor)
 
 </details>
 
@@ -63,3 +64,18 @@ Nenhuma dependência ou instalação necessária. Basta um navegador moderno.
 © 2026 Gabriel Alves. Todos os direitos reservados.
 Este projeto foi desenvolvido para fins acadêmicos.
 Cópia ou reutilização sem autorização explícita do autor é proibida.
+
+## Autor
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gabrielmoisesa">
+        <img src="https://avatars.githubusercontent.com/u/131400376?v=4" width="100px;" alt="Gabriel Alves"/><br>
+        <sub>
+          <b>Gabriel Moises Alves</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>

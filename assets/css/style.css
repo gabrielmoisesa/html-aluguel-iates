@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--color-bg);
 }
 
@@ -110,6 +110,13 @@ header a {
   display: flex;
   gap: 3rem;
   padding: 1.75rem 2.75rem;
+  align-items: stretch;
+}
+
+.content-container section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .section-header {
@@ -128,6 +135,24 @@ header a {
   background-color: var(--color-primary);
 }
 
+.destination-image {
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+  display: block;
+  min-height: 0;
+}
+
 #fleet-header {
   background-color: var(--color-text-gold);
+}
+
+.fleet-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.fleet-grid img {
+  width: 100%;
 }

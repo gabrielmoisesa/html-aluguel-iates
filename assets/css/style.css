@@ -97,9 +97,14 @@ header a {
   font-size: 1.2rem;
 }
 
+.hero-contact img {
+  height: 40px;
+}
+
 .hero-contact p a {
   color: var(--color-text-gold);
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .hero-contact p a:hover {
